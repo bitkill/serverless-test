@@ -1,7 +1,15 @@
 {
   "name": "aws-scheduled-cron",
   "version": "1.0.0",
-  "description": "Example of creating a function that runs as a cron job using the serverless `schedule` event",
-  "author": "",
-  "license": "MIT"
+  "description": "Example of creating a function that runs as a cron job using the serverless `schedule` event, using typescript",
+  "author": "bitkill",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.61",
+    "serverless": "^2.68.0",
+    "serverless-offline": "^6.5.0",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^3.9.7"
+  }
 }
